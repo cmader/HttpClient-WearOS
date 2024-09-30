@@ -2,3 +2,4 @@
 ## Description
 ## Installation
 ## Open Issues
+## License
