@@ -2,4 +2,5 @@
 ## Description
 ## Installation
 ## Open Issues
-## License
+## Distribution and License
+## Contributor
