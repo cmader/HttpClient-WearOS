@@ -31,7 +31,7 @@ with the office requests) or in absolute format, including protocol and host as 
 the living room request. If you use "relative" URLs, the app automatically adds a "Base URL" in 
 front of the paths (see Section "App Configuration").
 
-## App Configuration
+## Configuration
 
 HttpClient needs to access the Endpoints Definition from the (local) network. This is done by
 providing an **Endpoints base URL** in the app's configuration screen (see Section "App
@@ -39,15 +39,57 @@ Configuration"). The app internally appends the path `/endpoints` to the Endpoin
 you set your Endpoints base URL to, for instance, `https://my.host.net`, HttpClient tries to fetch
 the Endpoints Definition from `https://my.host.net/endpoints`.
 
+When the app is started for the first time, the following screen appears:
 
+![Configuration screen](res/config_screen.png)
+
+Here you can configure the Endpoints base URL that determines where the endpoint definition is
+downloaded (see Section "Description"). In addition there is an option to show the recently used
+endpoints. If the option is activated,  it will show the entry "Recently Used" as first item on 
+the top hierarchy level on the watch display. It contains the 8 recently issued requests.
+
+Pressing the back button of the watch confirms the configuration and brings up the endpoints 
+interaction screen which is described in the section below.
+
+## Endpoint Interaction
+
+Getting back to our endpoint definition example above, this is how the first hierarchy level will 
+be shown on the watch:
+
+![Endpoint interaction main level](res/endpoints_interaction_main.png)
+
+If you select "Office", the display will switch to the second hierarchy level, which is indicated 
+on the top of the list:
+
+![Endpoint interaction second_level](res/endpoints_interaction_level2.png)
+
+Tapping on one of the "shutter" entries issues the request.
+
+### Display of Response Text
+
+If the HTTP requests returns a response text with HTTP status `200` and `Content-Type` header set 
+to `text/plain`, the text is shown by the app in a separate view. You can see an example with a 
+sensor's temperature reading below:
+
+![Response result text](res/response_result_text.png)
 
 ## Installation
+
+tbd
+
 ### Compatibility
+
+The app has been tested with Wear OS 4, API level 33 with round display (1.2") in the emulator and
+on a Samsung Galaxy watch 5.
 
 ## Open Issues and Next Steps
 
 * Improve error handling on endpoint definition parsing
 * Optimize performance
+
+If you experience any bugs or issues using the app, please contact me! The software is developed
+as a personal leisure time side project with no commercial interest whatsoever. Hence no ads, nag
+screens, donate buttons or other annoying stuff.
 
 ## Distribution and License
 [HttpClient for Wear OS](https://github.com/cmader/HttpClient-WearOS) © 2024 by 
@@ -55,4 +97,4 @@ the Endpoints Definition from `https://my.host.net/endpoints`.
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
 ## Contributors
-* [Christian Mader](https://github.com/cmader), Developer
+* [Christian Mader](https://github.com/cmader), Initiator and Developer
