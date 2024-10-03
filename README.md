@@ -1,10 +1,14 @@
-# HttpClient-WearOS
+# ![Configuration screen](res/icon.svg) HttpClient-WearOS
 
 HttpClient is an app that is currently available for Garmin (on the 
 [connect iq store](https://apps.garmin.com/apps/da241207-e929-4cdf-9662-11ab17ffd70d)) and Wear OS 
 based smartwatches (as APK [here](https://github.com/cmader/HttpClient-WearOS)). It allows you to 
 send HTTP GET requests from your watch to configurable URLs. You can give these requests a custom 
 name and organize them in a hierarchy which is browsable on the watch in a convenient way.
+
+The app has been developed with home automation use cases in mind where certain actions can be 
+triggered by issuing an HTTP GET request to a local server that controls various appliances. 
+However, numerous other use cases are imaginable as well.
 
 ## Description
 
