@@ -90,6 +90,7 @@ on a Samsung Galaxy watch 5.
 ## Open Issues and Next Steps
 
 * Improve error handling on endpoint definition parsing
+* Test with missing/invalid TLS certificates
 * Optimize performance
 
 If you experience any bugs or issues using the app, please contact me! The software is developed
