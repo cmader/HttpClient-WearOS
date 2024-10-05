@@ -40,8 +40,8 @@ front of the paths (see Section "App Configuration").
 HttpClient needs to access the Endpoints Definition from the (local) network. This is done by
 providing an **Endpoints base URL** in the app's configuration screen (see Section "App
 Configuration"). The app internally appends the path `/endpoints` to the Endpoints base URL. So if
-you set your Endpoints base URL to, for instance, `https://my.host.net`, HttpClient tries to fetch
-the Endpoints Definition from `https://my.host.net/endpoints`.
+you set your Endpoints base URL to, for instance, `https://example.org`, HttpClient tries to fetch
+the Endpoints Definition from `https://example.org/endpoints`.
 
 When the app is started for the first time, the following screen appears:
 
@@ -91,7 +91,7 @@ method you're most comfortable with.
 The app has been tested with Wear OS 4, API level 33 with round display (1.2") in the emulator and
 on a Samsung Galaxy watch 5.
 
-### Changelog
+## Changelog
 
 v1.0.1: Improve error handling on request failure
 
