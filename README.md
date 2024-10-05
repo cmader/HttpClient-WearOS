@@ -91,6 +91,10 @@ method you're most comfortable with.
 The app has been tested with Wear OS 4, API level 33 with round display (1.2") in the emulator and
 on a Samsung Galaxy watch 5.
 
+### Changelog
+
+v1.0.1: Improve error handling on request failure
+
 ## Open Issues and Next Steps
 
 * Improve error handling on endpoint definition parsing
