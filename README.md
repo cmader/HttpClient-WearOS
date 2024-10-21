@@ -93,12 +93,13 @@ on a Samsung Galaxy watch 5.
 
 ## Changelog
 
+v1.0.2: Add optic and haptic feedback on menu item presses. As long as a request is in progress,
+the endpoint button is displayed with a darker background color.
 v1.0.1: Improve error handling on request failure
 
 ## Open Issues and Next Steps
 
 * Improve error handling on endpoint definition parsing
-* Test with missing/invalid TLS certificates
 * Optimize performance
 
 If you experience any bugs or issues using the app, please contact me! The software is developed
