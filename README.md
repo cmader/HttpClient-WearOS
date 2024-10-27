@@ -41,16 +41,18 @@ HttpClient needs to access the Endpoints Definition from the (local) network. Th
 providing an **Endpoints base URL** in the app's configuration screen (see Section "App
 Configuration"). The app internally appends the path `/endpoints` to the Endpoints base URL. So if
 you set your Endpoints base URL to, for instance, `https://example.org`, HttpClient tries to fetch
-the Endpoints Definition from `https://example.org/endpoints`.
+the Endpoints Definition from `https://example.org/endpoints`. **IMPORTANT**: The endpoints 
+definition response must have the `Content-Type` header set to `text/plain`.
 
 When the app is started for the first time, the following screen appears:
 
 ![Configuration screen](res/config_screen.png)
 
 Here you can configure the Endpoints base URL that determines where the endpoint definition is
-downloaded (see Section "Description"). In addition there is an option to show the recently used
+downloaded (see Section "Description"). In addition there is an option to show the 8 recently used
 endpoints. If the option is activated,  it will show the entry "Recently Used" as first item on 
-the top hierarchy level on the watch display. It contains the 8 recently issued requests.
+the top hierarchy level on the watch display. The config option *X-API-KEY* allows you to define
+a value that is sent to the server by using the `X-API-KEY` header for *every* request. 
 
 Pressing the back button of the watch confirms the configuration and brings up the endpoints 
 interaction screen which is described in the section below.
