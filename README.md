@@ -95,6 +95,7 @@ on a Samsung Galaxy watch 5.
 
 ## Changelog
 
+v1.1.0: Add config option for sending X-API-KEY header
 v1.0.2: Add optic and haptic feedback on menu item presses. As long as a request is in progress,
 the endpoint button is displayed with a darker background color.
 v1.0.1: Improve error handling on request failure
