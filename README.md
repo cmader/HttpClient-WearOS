@@ -95,6 +95,7 @@ on a Samsung Galaxy watch 5.
 
 ## Changelog
 
+* v1.2.1: Fix some bugs related to endpoint loading
 * v1.2.0: Store downloaded endpoint definition locally on device
 * v1.1.1: Allow unencrypted traffic
 * v1.1.0: Add config option for sending X-API-KEY header
