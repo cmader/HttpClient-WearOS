@@ -3,14 +3,14 @@
 HttpClient is an app that is currently available for Garmin (on the 
 [connect iq store](https://apps.garmin.com/apps/da241207-e929-4cdf-9662-11ab17ffd70d)) and Wear OS 
 based smartwatches (as APK [here](https://github.com/cmader/HttpClient-WearOS)). It allows you to 
-send HTTP GET requests from your watch to configurable URLs. You can give these requests a custom 
+send HTTP GET requests from your watch to configurable URLs (also called _endpoints_). You can give these requests a custom 
 name and organize them in a hierarchy which is browsable on the watch in a convenient way.
 
 The app has been developed with home automation use cases in mind where certain actions can be 
 triggered by issuing an HTTP GET request to a local server that controls various appliances. 
 However, numerous other use cases are imaginable as well.
 
-## Description
+## Endpoints Definition
 
 As an input, the app requires an **Endpoints Definition** which is a textual description of all the 
 requests that should be selectable on the watch. Here's an example:
@@ -79,6 +79,46 @@ sensor's temperature reading below:
 
 ![Response result text](res/response_result_text.png)
 
+### Additional Endpoint Options
+
+The behavior of the application can be controlled by adding specific markers to an endpoint's identifier.
+These are described in the following.
+
+#### Menu Item Colors
+
+Each endpoint in the Endpoints Definition will be represented by a menu item. By default these items
+are shown with a blue background. However, the color can be also set manually by adding the `#` character
+followed by the color name to the endpoint's identifier. For example, to have all items in the
+Office section from the example above shown in blue color, the line needs to be changed like this:
+
+    -- off#blue,Office
+
+This results into the following output:
+
+![Blue office menu item](res/colored_menuitem.png)
+
+Currently the following color names are supported:
+
+* red
+* green
+* blue
+* yellow
+* cyan
+* black
+* magenta
+* darkgray
+* lightgray
+* gray
+
+#### Ignore Error Response
+
+Sometimes an API behaves strange and calling it always results in an error response even though the 
+request has been received and processed. In that case, you can suppress the error dialog that is
+usually shown in the application by adding an exclamation mark `!` to the end of an endpoint's
+identifier like this:
+
+    --- l_on!,Lights on,https://192.168.8.1/light/liv/on
+
 ## Installation
 
 To install the app you need to download the `.apk` file from 
@@ -95,6 +135,7 @@ on a Samsung Galaxy watch 5.
 
 ## Changelog
 
+* v1.3.0: Add support for menu item colors and an option to suppress error responses
 * v1.2.1: Fix some bugs related to endpoint loading
 * v1.2.0: Store downloaded endpoint definition locally on device
 * v1.1.1: Allow unencrypted traffic
