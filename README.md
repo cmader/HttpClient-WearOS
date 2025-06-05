@@ -135,6 +135,7 @@ on a Samsung Galaxy watch 5.
 
 ## Changelog
 
+* v1.4.0: Add dark mode
 * v1.3.0: Add support for menu item colors and an option to suppress error responses
 * v1.2.1: Fix some bugs related to endpoint loading
 * v1.2.0: Store downloaded endpoint definition locally on device
