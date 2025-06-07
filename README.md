@@ -35,6 +35,14 @@ with the office requests) or in absolute format, including protocol and host as 
 the living room request. If you use "relative" URLs, the app automatically adds a "Base URL" in 
 front of the paths (see Section "App Configuration").
 
+If the url is provided in absolute format, user credentials may be provided using this form:
+
+    https://username:password@192.168.8.1/light/liv/on
+
+In that case, username and password will be converted to a basic auth header and sent in the 
+request.
+
+
 ## Configuration
 
 HttpClient needs to access the Endpoints Definition from the (local) network. This is done by
@@ -135,6 +143,7 @@ on a Samsung Galaxy watch 5.
 
 ## Changelog
 
+* v1.5.0: Support user credentials in URL for basic authentication
 * v1.4.0: Add dark mode
 * v1.3.0: Add support for menu item colors and an option to suppress error responses
 * v1.2.1: Fix some bugs related to endpoint loading
