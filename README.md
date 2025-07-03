@@ -143,6 +143,7 @@ on a Samsung Galaxy watch 5.
 
 ## Changelog
 
+* v1.5.2: Improve initialization code
 * v1.5.1: Fix text color of response result and error texts
 * v1.5.0: Support user credentials in URL for basic authentication
 * v1.4.0: Add dark mode
