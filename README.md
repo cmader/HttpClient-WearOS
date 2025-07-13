@@ -140,9 +140,10 @@ method you're most comfortable with.
 
 The app has been tested with Wear OS 4, API level 33 with round display (1.2") in the emulator and
 on a Samsung Galaxy watch 5.
-
+    
 ## Changelog
 
+* v1.5.3-RC1: Add a back button to configuration and endpoints screen
 * v1.5.2: Improve initialization code
 * v1.5.1: Fix text color of response result and error texts
 * v1.5.0: Support user credentials in URL for basic authentication
