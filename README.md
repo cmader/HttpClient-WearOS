@@ -143,7 +143,7 @@ on a Samsung Galaxy watch 5.
     
 ## Changelog
 
-* v1.5.3-RC1: Add a back button to configuration and endpoints screen
+* v1.5.3: Add a back button to configuration and endpoints screen
 * v1.5.2: Improve initialization code
 * v1.5.1: Fix text color of response result and error texts
 * v1.5.0: Support user credentials in URL for basic authentication
@@ -157,17 +157,14 @@ on a Samsung Galaxy watch 5.
 the endpoint button is displayed with a darker background color.
 * v1.0.1: Improve error handling on request failure
 
-## Open Issues and Next Steps
-
-* Improve error handling on endpoint definition parsing
-* Optimize performance
+## Other Notes
 
 If you experience any bugs or issues using the app, please contact me! The software is developed
 as a personal leisure time side project with no commercial interest whatsoever. Hence no ads, nag
 screens, donate buttons or other annoying stuff.
 
 ## Distribution and License
-[HttpClient for Wear OS](https://github.com/cmader/HttpClient-WearOS) © 2024 by 
+[HttpClient for Wear OS](https://github.com/cmader/HttpClient-WearOS) © 2024,2025 by 
 [Christian Mader](https://github.com/cmader) is licensed under 
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
