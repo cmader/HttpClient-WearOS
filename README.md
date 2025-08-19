@@ -143,6 +143,7 @@ on a Samsung Galaxy watch 5.
     
 ## Changelog
 
+* v1.5.4: Set minimum API version to 28 
 * v1.5.3: Add a back button to configuration and endpoints screen
 * v1.5.2: Improve initialization code
 * v1.5.1: Fix text color of response result and error texts
