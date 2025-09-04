@@ -138,11 +138,12 @@ method you're most comfortable with.
 
 ### Compatibility
 
-The app has been tested with Wear OS 4, API level 33 with round display (1.2") in the emulator and
-on a Samsung Galaxy watch 5.
+The app has been tested with Wear OS 4, API level 33 and 28 with round display (1.2") in the 
+emulator and on a Samsung Galaxy watch 5.
     
 ## Changelog
 
+* v1.5.5: Fix some bugs related to API version 28
 * v1.5.4: Set minimum API version to 28 
 * v1.5.3: Add a back button to configuration and endpoints screen
 * v1.5.2: Improve initialization code
