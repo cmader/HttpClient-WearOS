@@ -143,6 +143,7 @@ emulator and on a Samsung Galaxy watch 5.
     
 ## Changelog
 
+* v1.6.0: Add configuration option to enable/disable vibration
 * v1.5.6: Fix bug that ignored item color when error response suppression is activated 
 * v1.5.5: Fix some bugs related to API version 28
 * v1.5.4: Set minimum API version to 28 
