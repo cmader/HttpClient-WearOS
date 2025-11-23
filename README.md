@@ -143,6 +143,7 @@ emulator and on a Samsung Galaxy watch 5.
     
 ## Changelog
 
+* v1.7.1: Use black label text for some manually set menu item colors
 * v1.7.0: Improve UI
 * v1.6.0: Add configuration option to enable/disable vibration
 * v1.5.6: Fix bug that ignored item color when error response suppression is activated 
