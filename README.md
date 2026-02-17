@@ -143,6 +143,7 @@ emulator and on a Samsung Galaxy watch 5.
     
 ## Changelog
 
+* v2.0.0_RC2: Only allow initial configuration with a valid endpoints base URL
 * v2.0.0_RC1: First release candidate of rewritten version 
 * v1.7.1: Use black label text for some manually set menu item colors
 * v1.7.0: Improve UI
@@ -171,7 +172,7 @@ as a personal leisure time side project with no commercial interest whatsoever. 
 screens, donate buttons or other annoying stuff.
 
 ## Distribution and License
-[HttpClient for Wear OS](https://github.com/cmader/HttpClient-WearOS) © 2024,2025 by 
+[HttpClient for Wear OS](https://github.com/cmader/HttpClient-WearOS) © 2024-2026 by 
 [Christian Mader](https://github.com/cmader) is licensed under 
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 
 
