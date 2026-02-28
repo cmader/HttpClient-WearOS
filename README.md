@@ -143,6 +143,7 @@ emulator and on a Samsung Galaxy watch 5.
     
 ## Changelog
 
+* v2.0.0: Major version update
 * v2.0.0_RC2: Only allow initial configuration with a valid endpoints base URL
 * v2.0.0_RC1: First release candidate of rewritten version 
 * v1.7.1: Use black label text for some manually set menu item colors
