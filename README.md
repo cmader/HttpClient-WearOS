@@ -143,6 +143,7 @@ emulator and on a Samsung Galaxy watch 5.
     
 ## Changelog
 
+* v2.0.1: Make current endpoint level position always visible on top of the screen
 * v2.0.0: Major version update
 * v2.0.0_RC2: Only allow initial configuration with a valid endpoints base URL
 * v2.0.0_RC1: First release candidate of rewritten version 
