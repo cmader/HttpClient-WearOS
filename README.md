@@ -1,4 +1,4 @@
-# ![Configuration screen](res/icon.svg) HttpClient-WearOS
+# ![Configuration screen](doc/icon.svg) HttpClient-WearOS
 
 HttpClient is an app that is currently available for Garmin (on the 
 [connect iq store](https://apps.garmin.com/apps/da241207-e929-4cdf-9662-11ab17ffd70d)) and Wear OS 
@@ -54,7 +54,7 @@ definition response must have the `Content-Type` header set to `text/plain`.
 
 When the app is started for the first time, the following screen appears:
 
-![Configuration screen](res/config_screen.png)
+![Configuration screen](doc/config_screen.png)
 
 Here you can configure the Endpoints base URL that determines where the endpoint definition is
 downloaded (see Section "Description"). In addition there is an option to show the 8 recently used
@@ -70,12 +70,12 @@ interaction screen which is described in the section below.
 Getting back to our endpoint definition example above, this is how the first hierarchy level will 
 be shown on the watch:
 
-![Endpoint interaction main level](res/endpoints_interaction_main.png)
+![Endpoint interaction main level](doc/endpoints_interaction_main.png)
 
 If you select "Office", the display will switch to the second hierarchy level, which is indicated 
 on the top of the list:
 
-![Endpoint interaction second_level](res/endpoints_interaction_level2.png)
+![Endpoint interaction second_level](doc/endpoints_interaction_level2.png)
 
 Tapping on one of the "shutter" entries issues the request.
 
@@ -85,7 +85,7 @@ If the HTTP requests returns a response text with HTTP status `200` and `Content
 to `text/plain`, the text is shown by the app in a separate view. You can see an example with a 
 sensor's temperature reading below:
 
-![Response result text](res/response_result_text.png)
+![Response result text](doc/response_result_text.png)
 
 ### Additional Endpoint Options
 
@@ -103,7 +103,7 @@ Office section from the example above shown in blue color, the line needs to be 
 
 This results into the following output:
 
-![Blue office menu item](res/colored_menuitem.png)
+![Blue office menu item](doc/colored_menuitem.png)
 
 Currently the following color names are supported:
 
@@ -143,7 +143,7 @@ emulator and on a Samsung Galaxy watch 5.
     
 ## Changelog
 
-* v2.0.1: Make current endpoint level position always visible on top of the screen
+* [v2.0.1](apk/httpclient-2_0_1.apk): Make current endpoint level position always visible on top of the screen
 * v2.0.0: Major version update
 * v2.0.0_RC2: Only allow initial configuration with a valid endpoints base URL
 * v2.0.0_RC1: First release candidate of rewritten version 
