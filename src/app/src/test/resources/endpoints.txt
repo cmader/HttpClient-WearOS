@@ -1,0 +1,10 @@
+- alles,Alles
+-- wohn,Wohnzimmer
+--- rollo,Rollo
+---- stop!,Rollo stop,/rollo/wohn/stop
+--- musik#green,Musik
+---- m_nr,Netradio,/musik/netradio
+---- m_opt,Optical,/musik/optical
+-- test,Test
+--- tst1#red!,fail,/blabla
+--- tst2#green,fail,/blabla

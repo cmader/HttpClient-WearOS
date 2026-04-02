@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">HttpClient</string>
+    <string name="endpoints_base_url">Endpoints base URL</string>
+    <string name="show_recently_used_endpoints">Show recently used endpoints</string>
+    <string name="vibration_toggle">Vibrate on endpoint selection</string>
+    <string name="x_api_key_toggle">X-API-KEY</string>
+    <string name="x_api_key_toggle_description">Enable or disable use of X-API-KEY header</string>
+    <string name="err_invalid_base_url">Invalid endpoints base URL</string>
+    <string name="recently_used">Recently used</string>
+    <string name="request_error">Error processing request</string>
+    <string name="endpoints_init_error">Unable to process endpoints definition</string>
+    <string name="no_value_set">(not set)</string>
+    <string name="unknown_error">Unknown error occurred</string>
+</resources>

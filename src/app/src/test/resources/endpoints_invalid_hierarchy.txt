@@ -1,0 +1,4 @@
+- alles,Alles
+-- wohn,Wohnzimmer
+--- rollo,Rollo
+---stop!,Rollo stop,/rollo/wohn/stop
