@@ -1,5 +1,6 @@
-# ![Configuration screen](doc/icon.svg) HttpClient-WearOS
+# ![App Icon](doc/icon.svg) HttpClient-WearOS
 
+## Description
 HttpClient is an app that is currently available for Garmin (on the 
 [connect iq store](https://apps.garmin.com/apps/da241207-e929-4cdf-9662-11ab17ffd70d)) and Wear OS 
 based smartwatches (as APK [here](https://github.com/cmader/HttpClient-WearOS)). It allows you to 
@@ -9,6 +10,10 @@ name and organize them in a hierarchy which is browsable on the watch in a conve
 The app has been developed with home automation use cases in mind where certain actions can be 
 triggered by issuing an HTTP GET request to a local server that controls various appliances. 
 However, numerous other use cases are imaginable as well.
+
+## Contributions
+If you like the app and want to contribute, feel free to support me with any amount of money you
+feel comfortable with under this url: [paypal.me/chma2808](paypal.me/chma2808)
 
 ## Endpoints Definition
 
