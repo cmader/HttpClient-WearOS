@@ -13,7 +13,7 @@ However, numerous other use cases are imaginable as well.
 
 ## Contributions
 If you like the app and want to contribute, feel free to support me with any amount of money you
-feel comfortable with under this url: [paypal.me/chma2808](paypal.me/chma2808)
+feel comfortable with on [PayPal](paypal.me/chma2808).
 
 ## Endpoints Definition
 
